@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+.wrapper{
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 1px #000;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 360px;
+    padding: 20px 40px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/03/14/32/whisky-3450670_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+
+}
+.shodow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .35);
+    z-index: -1;
+    margin-left: 20px;
+}
+.shodow h1{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 250px;
+    font-size: 50px;
+}
+.serche{
+    padding: 10px 20px;
+}
